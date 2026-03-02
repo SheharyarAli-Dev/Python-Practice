@@ -21,7 +21,7 @@ c=np.array([1,2,3],dtype=float,ndmin=1);
 print(c);
 """
 
-
+"""
 #Topic 02:
 import numpy as np
 
@@ -33,7 +33,7 @@ b=np.ones((2,2),dtype=float)
 
 print(b);
 
-c=np.full((3,3),67,dtype=float);
+c=np.full((3,3),3,dtype=float);
 print(c);
 
 d=np.empty((2,3),dtype=int);
@@ -44,3 +44,6 @@ print(e);
 
 f=np.eye(3,k=2)
 print(f);
+"""
+
+a=np.zeros((3,4))
