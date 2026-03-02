@@ -1,4 +1,5 @@
 str.replace("value to be replace in string", "Value needed");
+str.replace().replace()
 
 array.insert(index,value);   inserts value at specific index
 
