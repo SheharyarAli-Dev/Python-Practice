@@ -62,3 +62,35 @@ print(c);
 d=np.geomspace(10,100,4);
 print(d);
 """
+
+#Topic 3
+"""
+import numpy as np;
+
+a=np.array([1,2,3],dtype=np.float32);
+print(a);
+
+b=np.array([[1,2,4]],dtype=np.bool_);
+print(b);
+b.astype(np.int32);
+print(b);
+
+print(b.ndim);
+print(b.shape);
+print(b.size);
+print(b.itemsize);
+"""
+
+#Topic 4
+
+import numpy as np
+
+a=np.array([1,2,3],dtype=np.int16,ndmin=1);
+print(a[0:1]);
+
+b=np.array([[1,2,3],[4,5,6]],dtype=np.int16,ndmin=1);
+#print(b[1,2]);
+#print(b[0,:]);
+#print(b[1:2, 0:2]);
+print(b.imag);
+
