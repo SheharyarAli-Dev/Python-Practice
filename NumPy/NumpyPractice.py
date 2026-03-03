@@ -46,4 +46,19 @@ f=np.eye(3,k=2)
 print(f);
 """
 
-a=np.zeros((3,4))
+#Topic 3
+"""
+import numpy as np
+
+a=np.arange(0,50,10);
+print(a);
+
+b=np.linspace(0,10,100,endpoint=True);
+print(b);
+
+c=np.logspace(3,5,10);
+print(c);
+
+d=np.geomspace(10,100,4);
+print(d);
+"""
