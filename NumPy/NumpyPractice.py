@@ -81,8 +81,9 @@ print(b.size);
 print(b.itemsize);
 """
 
-#Topic 4
 
+#Topic 4
+"""
 import numpy as np
 
 a=np.array([1,2,3],dtype=np.int16,ndmin=1);
@@ -93,4 +94,26 @@ b=np.array([[1,2,3],[4,5,6]],dtype=np.int16,ndmin=1);
 #print(b[0,:]);
 #print(b[1:2, 0:2]);
 print(b.imag);
+"""
 
+#Topic 5
+
+import numpy as np
+
+a=np.ones((3,3),dtype=np.int16);
+print(a);
+
+a=a.reshape(9,1);
+print(a);
+
+a=a.reshape(-1,3)
+print(a);
+
+a=a.flatten();
+print(a);
+
+
+b=np.array([1,2,3]);
+print(b);
+b=np.expand_dims(b,axis=0);
+print(b);
