@@ -97,7 +97,7 @@ print(b.imag);
 """
 
 #Topic 5
-
+"""
 import numpy as np
 
 a=np.ones((3,3),dtype=np.int16);
@@ -117,3 +117,33 @@ b=np.array([1,2,3]);
 print(b);
 b=np.expand_dims(b,axis=0);
 print(b);
+"""
+
+
+#Topic 6
+"""
+import numpy as np;
+
+a=np.array([1,2,3]);
+print(a);
+
+a=np.expand_dims([1,2,3],axis=1);
+print(a);
+
+b=np.squeeze(([1],[2]));
+print(b);
+"""
+
+#Topic 7:
+import numpy as np
+
+a=np.array(([1,2],[3,4]), dtype=np.int32);
+b=np.array(([5,6],[7,8]), dtype=np.int32);
+
+c=np.concatenate((a,b),axis=1);
+print(c);
+
+d=np.vstack((a,b))
+print(d);
+
+
