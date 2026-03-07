@@ -134,7 +134,9 @@ b=np.squeeze(([1],[2]));
 print(b);
 """
 
+
 #Topic 7:
+"""
 import numpy as np
 
 a=np.array(([1,2],[3,4]), dtype=np.int32);
@@ -145,5 +147,14 @@ print(c);
 
 d=np.vstack((a,b))
 print(d);
+
+e=np.column_stack((a,b));
+
+print(e);
+"""
+
+#Topic 8:
+
+
 
 
