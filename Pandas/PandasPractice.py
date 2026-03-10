@@ -68,10 +68,11 @@ print(e)
 #TOPIC 4:
 import pandas as pd
 
-a=[
-    [1,2,3],
-    [4,5,6],
-    [7,8,9]
-]
+a=pd.read_csv("Pandas/test.csv",usecols=["Name"])
+print(a)
 
-print(pd.DataFrame(a,columns=["7","8","9"],index=[7,8,9]))
+a.to_csv("Output.csv",index=False)
+a=pd.read_excel("Pandas/check.xlsx", engine="openpyxl");
+print(a)
+
+#pd.read_csv(file, sep=",", header=0) IMPORTANT
