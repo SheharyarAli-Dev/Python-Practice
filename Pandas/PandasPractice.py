@@ -80,6 +80,7 @@ print(a)
 """
 
 #TOPIC 5:
+"""
 import pandas as pd
 
 d={
@@ -88,3 +89,13 @@ d={
 }
 a=pd.DataFrame(d,index=["1","2","3"])
 print(a);
+"""
+
+#TOPIC 6:
+
+import pandas as pd
+
+a=pd.read_csv("Pandas/test.csv")
+print(a)
+print()
+print(a.head(6))
