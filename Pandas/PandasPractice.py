@@ -66,6 +66,7 @@ print(e)
 """
 
 #TOPIC 4:
+"""
 import pandas as pd
 
 a=pd.read_csv("Pandas/test.csv",usecols=["Name"])
@@ -76,3 +77,14 @@ a=pd.read_excel("Pandas/check.xlsx", engine="openpyxl");
 print(a)
 
 #pd.read_csv(file, sep=",", header=0) IMPORTANT
+"""
+
+#TOPIC 5:
+import pandas as pd
+
+d={
+    "a":[1,2,3],
+    "b":[4,5,6]
+}
+a=pd.DataFrame(d,index=["1","2","3"])
+print(a);
