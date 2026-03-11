@@ -92,9 +92,8 @@ print(a);
 """
 
 #TOPIC 6:
-
+"""
 import pandas as pd
-
 a=pd.read_csv("Pandas/test.csv")
 print(a)
 print()
@@ -116,3 +115,21 @@ print(a.dtypes)
 print()
 print(a["Marks"].value_counts())
 print()
+"""
+
+#TOPIC 7:
+
+import pandas as pd
+
+a=pd.read_csv("Pandas/test.csv")
+print(a[["Marks","Age"]])
+print()
+print(a.iloc[0:1])
+print()
+print(a)
+print()
+print(a[a["Marks"]<90])
+print()
+print(a["Age"])
+print()
+print(a.iloc[[0,2]])
