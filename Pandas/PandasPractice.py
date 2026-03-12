@@ -118,7 +118,7 @@ print()
 """
 
 #TOPIC 7:
-
+"""
 import pandas as pd
 
 a=pd.read_csv("Pandas/test.csv")
@@ -133,3 +133,12 @@ print()
 print(a["Age"])
 print()
 print(a.iloc[[0,2]])
+"""
+
+#TOPIC 8:
+
+import pandas as pd
+
+a=pd.read_csv("Pandas/test.csv")
+print(a.isnull())
+print(a.isna())
