@@ -141,4 +141,9 @@ import pandas as pd
 
 a=pd.read_csv("Pandas/test.csv")
 print(a.isnull())
+print()
 print(a.isna())
+print()
+print(a.notnull())
+print()
+print(a.isnull().sum())
