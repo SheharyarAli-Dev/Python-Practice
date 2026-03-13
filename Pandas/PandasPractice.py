@@ -152,8 +152,12 @@ print(a[a["Age"].isnull()])
 """
 
 #TOPIC 9:
+
 import pandas as pd
 
 a=pd.read_csv("Pandas/test.csv")
-print(a.isnull())
+print(a.duplicated())
+a=a.drop_duplicates()
+print()
+print(a.duplicated())
 
