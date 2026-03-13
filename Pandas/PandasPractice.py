@@ -136,7 +136,7 @@ print(a.iloc[[0,2]])
 """
 
 #TOPIC 8:
-
+"""
 import pandas as pd
 
 a=pd.read_csv("Pandas/test.csv")
@@ -147,3 +147,13 @@ print()
 print(a.notnull())
 print()
 print(a.isnull().sum())
+print()
+print(a[a["Age"].isnull()])
+"""
+
+#TOPIC 9:
+import pandas as pd
+
+a=pd.read_csv("Pandas/test.csv")
+print(a.isnull())
+
