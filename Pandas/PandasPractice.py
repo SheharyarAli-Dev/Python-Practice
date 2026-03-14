@@ -160,4 +160,4 @@ print(a.duplicated())
 a=a.drop_duplicates()
 print()
 print(a.duplicated())
-
+a["Age"]=a["Age"].apply(lambda x:x+5)
